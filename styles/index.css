@@ -4,3 +4,35 @@
   margin: 0px;
   padding: 0px;
 }
+
+.container {
+  max-width: 920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Cabeçalho */
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 6px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #031f3a;
+  font-weight: 500;
+  padding: 4px 8px;
+}
+
+header nav ul li:last-child a {
+  background-color: #e87539;
+  color: #ffffff;
+}
