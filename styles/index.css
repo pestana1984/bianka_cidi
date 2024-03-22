@@ -61,7 +61,7 @@ section#conheca div {
   margin-left: 60px;
   justify-content: center;
 }
-section#conheca h2 {
+section h2 {
   font-size: 26px;
   font-weight: 600;
   color: #031f3a;
@@ -72,7 +72,7 @@ section#conheca p {
   color: #7f7f7f;
 }
 
-section#conheca a {
+section .botao {
   text-decoration: none;
   font-size: 12px;
   font-weight: 600;
@@ -80,5 +80,60 @@ section#conheca a {
   background-color: #e87539;
   border: 1px solid #ea813b;
   padding: 14px 80px;
-  max-width: max-content;
+}
+
+section#conheca a {
+  display: inline-block;
+  width: 218px;
+}
+
+/* Por que nos escolher? */
+section#porque {
+  display: flex;
+  margin-bottom: 120px;
+  align-items: center;
+}
+
+section#porque ul {
+  list-style: none;
+  margin-top: 50px;
+}
+
+section#porque ul li {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 36px;
+}
+
+section#porque ul li h3 {
+  color: #2e455b;
+  font-size: 16px;
+}
+
+section#porque ul li p {
+  color: #5b5b5b;
+  font-size: 14px;
+  margin-top: 14px;
+}
+
+/* Imagem Lista */
+section#porque ul li img {
+  max-width: 60px;
+}
+
+section#porque a {
+  display: inline-block;
+  width: 218px;
+  margin-top: 50px;
+  margin-left: 25%;
+  text-align: center;
+}
+
+/* Imagem Office*/
+section#porque img#office {
+  max-width: 440px;
+  max-height: 345px;
+  margin-left: 40px;
+  margin-bottom: 40px;
 }
