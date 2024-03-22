@@ -42,3 +42,42 @@ section#banner {
   background: url(../assets/banner_home.png) no-repeat center/cover;
   min-height: 520px;
 }
+
+/* Conheça Mais */
+section#conheca {
+  display: flex;
+  padding: 60px 0px;
+}
+
+section#conheca img {
+  max-width: 440px;
+}
+
+section#conheca div {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-left: 60px;
+  justify-content: center;
+}
+section#conheca h2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #031f3a;
+}
+
+section#conheca p {
+  font-size: 14px;
+  color: #7f7f7f;
+}
+
+section#conheca a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  color: #f3ba94;
+  background-color: #e87539;
+  border: 1px solid #ea813b;
+  padding: 14px 80px;
+  max-width: max-content;
+}
