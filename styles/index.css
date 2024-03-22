@@ -343,3 +343,102 @@ footer a img {
   width: 20px;
   height: 20px;
 }
+
+/* Media Query 920px */
+@media (max-width: 920px) {
+  header .container {
+    flex-direction: column;
+  }
+
+  header .container nav {
+    margin-top: 24px;
+  }
+
+  section#banner {
+    display: none;
+    background: url(../assets/banner_home.png) no-repeat center/contain;
+  }
+
+  section#conheca {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  section#conheca img {
+    width: 100%;
+  }
+
+  section#conheca div {
+    margin-left: 0;
+    align-items: center;
+    gap: 30px;
+  }
+
+  section#porque {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  section#porque div {
+    text-align: center;
+  }
+
+  section#porque a {
+    margin-left: 0;
+  }
+
+  section#porque ul {
+    order: 2;
+  }
+
+  section#porque ul li {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  section#porque img#office {
+    order: -1;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  section h2 {
+    text-align: center;
+  }
+
+  section#duvidas {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section#duvidas img {
+    width: 300px;
+    height: 320px;
+  }
+
+  section#duvidas div {
+    margin-top: 40px;
+    margin-left: 0;
+  }
+
+  section#duvidas dl {
+    padding: 0 4px;
+  }
+
+  section#duvidas p {
+    text-align: center;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  footer nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+}
