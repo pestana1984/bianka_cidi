@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  font-family: "Gantari", sans-serif;
 }
 
 .container {
@@ -84,7 +85,7 @@ section .botao {
 
 section#conheca a {
   display: inline-block;
-  width: 218px;
+  width: 224px;
 }
 
 /* Por que nos escolher? */
@@ -124,7 +125,7 @@ section#porque ul li img {
 
 section#porque a {
   display: inline-block;
-  width: 218px;
+  width: 224px;
   margin-top: 50px;
   margin-left: 25%;
   text-align: center;
