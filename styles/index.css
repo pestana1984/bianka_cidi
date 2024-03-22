@@ -37,10 +37,18 @@ header nav ul li a {
   padding: 4px 8px;
 }
 
+header nav ul li a:hover {
+  color: #e87539;
+}
+
 header nav ul li:last-child a {
   background-color: #e87539;
   color: #f9decc;
   font-weight: 600;
+}
+
+header nav ul li:last-child a:hover {
+  background-color: #f76517;
 }
 
 /* Banner */
