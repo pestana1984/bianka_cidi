@@ -138,3 +138,66 @@ section#porque img#office {
   margin-left: 40px;
   margin-bottom: 40px;
 }
+
+/* Serviços */
+section#servicos {
+  padding-bottom: 120px;
+}
+
+section#servicos h2 {
+  margin-bottom: 40px;
+}
+
+section#servicos p,
+section#servicos ul li {
+  color: #5b5b5b;
+  font-size: 14px;
+}
+
+section#servicos ul li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+section#servicos button {
+  display: flex;
+  gap: 16px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  align-items: center;
+  color: #2e455b;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+section#servicos button::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: url(../assets/seta-abrir.svg) no-repeat center/cover;
+  transition: 0.3s;
+}
+
+section#servicos button:hover::after,
+section#servicos button[aria-expanded="true"]::after {
+  transform: rotate(180deg);
+}
+
+section#servicos dd {
+  display: none;
+  padding-left: 20px;
+  padding-top: 16px;
+  max-width: 80ch;
+}
+
+section#servicos dd ul li {
+  list-style: none;
+}
+
+section#servicos a {
+  display: inline-block;
+  width: 224px;
+  margin-top: 50px;
+  text-align: center;
+}
