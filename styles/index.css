@@ -36,3 +36,9 @@ header nav ul li:last-child a {
   background-color: #e87539;
   color: #ffffff;
 }
+
+/* Banner */
+section#banner {
+  background: url(../assets/banner_home.png) no-repeat center/cover;
+  min-height: 520px;
+}
