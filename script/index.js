@@ -14,7 +14,8 @@ function mostrarItem(elemento) {
 /* ##### EVENTOS ##### */
 
 // Pegar todas dt's da dl serviços
-dts = document.querySelectorAll("section#servicos dt");
+dts = document.querySelectorAll("dt");
+console.log(dts)
 
 // Para cada dt, adicionar evento de clique
 dts.forEach((dt) => {
