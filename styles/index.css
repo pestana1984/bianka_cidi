@@ -89,7 +89,7 @@ section#conheca p {
 
 section .botao {
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   color: #f7ceb2;
   background-color: #e87539;
@@ -97,9 +97,13 @@ section .botao {
   padding: 14px 80px;
 }
 
+section .botao:hover {
+  background-color: #f76517;
+}
+
 section#conheca a {
   display: inline-block;
-  width: 224px;
+  width: 240px;
 }
 
 /* Por que nos escolher? */
@@ -139,7 +143,7 @@ section#porque ul li img {
 
 section#porque a {
   display: inline-block;
-  width: 224px;
+  width: 240px;
   margin-top: 50px;
   margin-left: 25%;
   text-align: center;
@@ -211,7 +215,7 @@ section#servicos dd ul li {
 
 section#servicos a {
   display: inline-block;
-  width: 224px;
+  width: 240px;
   margin-top: 50px;
   text-align: center;
 }
