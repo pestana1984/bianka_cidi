@@ -6,6 +6,10 @@
   font-family: "Gantari", sans-serif;
 }
 
+body {
+  padding-bottom: 60px;
+}
+
 .container {
   max-width: 1080px;
   width: 100%;
@@ -282,4 +286,40 @@ section#duvidas div p a {
 
 section#duvidas div p a:hover {
   color: #e87539;
+}
+
+/* Rodapé */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  border-bottom: 2px solid #acacac;
+}
+
+footer nav ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #031f3a;
+  font-weight: 500;
+  padding: 4px 8px;
+}
+
+footer nav ul li a:hover {
+  color: #e87539;
+}
+
+footer div {
+  display: flex;
+  gap: 12px;
+}
+
+footer a img {
+  width: 20px;
+  height: 20px;
 }
