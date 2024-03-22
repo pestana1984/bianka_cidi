@@ -34,7 +34,8 @@ header nav ul li a {
 
 header nav ul li:last-child a {
   background-color: #e87539;
-  color: #ffffff;
+  color: #f9decc;
+  font-weight: 600;
 }
 
 /* Banner */
